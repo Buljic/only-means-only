@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Generated outputs and local runs
+outputs/
+*.log
+
+# Images, weights and dataset payloads (never committed; lists are tracked, images are not)
+*.pt
+*.pth
+*.safetensors
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# Editor and OS cruft
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

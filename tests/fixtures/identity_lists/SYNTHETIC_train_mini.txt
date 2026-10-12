@@ -1,0 +1,4 @@
+HCOCO/composite_images/c100_200_1.jpg
+HCOCO/composite_images/c100_201_2.jpg
+HCOCO/composite_images/c101_300_1.jpg
+HAdobe5k/composite_images/Canon1DsMkIII_0010_a_1.jpg

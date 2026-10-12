@@ -1,0 +1,3 @@
+# Test dependencies. Adds pytest to the runtime set.
+-r requirements.txt
+pytest==9.1.1

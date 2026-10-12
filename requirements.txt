@@ -1,0 +1,10 @@
+# Runtime dependencies for the shipped first-party subset.
+# Versions are the ones the CPU smoke path was last verified against (see README).
+# Install torch from the CPU wheel index to avoid pulling the CUDA build:
+#   python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.13.0
+torch==2.13.0
+numpy==2.5.1
+scipy==1.18.0
+scikit-image==0.26.0
+matplotlib==3.11.0
+Pillow==12.3.0

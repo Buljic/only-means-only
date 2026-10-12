@@ -1,0 +1,2 @@
+HCOCO/composite_images/c900_400_3.jpg
+HCOCO/composite_images/c901_500_1.jpg

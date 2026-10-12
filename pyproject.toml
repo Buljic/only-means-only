@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "only-means-only-release"
+version = "1.0.0"
+description = "Construction-unit identity matcher and certified-locality checks for iHarmony4"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "scikit-image==0.26.0",
+    "matplotlib==3.11.0",
+    "Pillow==12.3.0",
+    "torch==2.13.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.setuptools]
+packages = ["src", "src.editor", "src.eval", "src.models", "src.utils"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
