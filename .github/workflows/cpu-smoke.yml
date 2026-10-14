@@ -1,0 +1,43 @@
+name: cpu-smoke
+
+# CPU-only smoke path: no dataset, no model weights, no network beyond the package install.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.13.0
+          python -m pip install numpy==2.5.1 scipy==1.18.0 scikit-image==0.26.0 matplotlib==3.11.0 Pillow==12.3.0 pytest==9.1.1
+
+      - name: Identity matcher smoke
+        run: |
+          python scripts/dataset_identity_scan.py \
+            --name smoke \
+            --train tests/fixtures/identity_lists/SYNTHETIC_train_mini.txt \
+            --test tests/fixtures/identity_lists/SYNTHETIC_test_mini.txt \
+            --scope-subdataset --json
+
+      - name: Official list count reproduction
+        run: |
+          python scripts/dataset_identity_scan.py \
+            --name iharmony4 \
+            --train data/iharmony4_lists/IHD_train.official.txt \
+            --test data/iharmony4_lists/IHD_test.official.txt \
+            --scope-subdataset --json
+
+      - name: Unit tests
+        run: python -m pytest -q
