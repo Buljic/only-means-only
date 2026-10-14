@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Construction-unit identity matcher and certified-locality checks for iHarmony4"
+type: software
+authors:
+  - family-names: "Buljic"
+    given-names: "Imad"
+    affiliation: "Polytechnic Faculty, University of Zenica"
+    orcid: "https://orcid.org/0009-0009-2723-2315"
+  - family-names: "Muminovic"
+    given-names: "Delaida"
+    affiliation: "Polytechnic Faculty, University of Zenica"
+    orcid: "https://orcid.org/0009-0002-6388-650X"
+version: "1.0.0"
+license: MIT
+abstract: >-
+  Code and filename lists for auditing the iHarmony4 image-harmonization benchmark at the
+  real-image construction unit, plus CPU-runnable checks for composite-locality (footprint)
+  and for a bounded exterior-input to interior-output sensitivity certificate. The associated
+  manuscript is included as paper.pdf in this repository.
