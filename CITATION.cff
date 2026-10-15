@@ -3,11 +3,11 @@ message: "If you use this software, please cite it as below."
 title: "Construction-unit identity matcher and certified-locality checks for iHarmony4"
 type: software
 authors:
-  - family-names: "Buljic"
+  - family-names: "Buljić"
     given-names: "Imad"
     affiliation: "Polytechnic Faculty, University of Zenica"
     orcid: "https://orcid.org/0009-0009-2723-2315"
-  - family-names: "Muminovic"
+  - family-names: "Muminović"
     given-names: "Delaida"
     affiliation: "Polytechnic Faculty, University of Zenica"
     orcid: "https://orcid.org/0009-0002-6388-650X"
