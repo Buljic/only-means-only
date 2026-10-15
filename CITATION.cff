@@ -22,10 +22,10 @@ references:
   - type: article
     title: "Only Means Only: what a harmonization benchmark score averages over"
     authors:
-      - family-names: "Bulji\u0107"
+      - family-names: "Buljić"
         given-names: "Imad"
         orcid: "https://orcid.org/0009-0009-2723-2315"
-      - family-names: "Muminovi\u0107"
+      - family-names: "Muminović"
         given-names: "Delaida"
         orcid: "https://orcid.org/0009-0002-6388-650X"
     doi: "10.5281/zenodo.23404530"
