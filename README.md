@@ -138,5 +138,11 @@ src/utils/           image, mask and manifest helpers
 scripts/             identity matcher, staging and leakage guard
 tests/               regression tests and synthetic fixtures
 data/iharmony4_lists official train/test lists and the corrected test list
-docs/                certificate notes and the list reproduction guide
+docs/                certificate notes, the list reproduction guide, and the
+                     retrain run records behind the departure disclosure
 ```
+
+## License
+
+The project's own code and lists are released under the MIT license (`LICENSE`).
+Third-party material is referenced, not redistributed; see `THIRD_PARTY_NOTICES.md`.
