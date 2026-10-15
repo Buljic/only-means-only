@@ -18,3 +18,18 @@ abstract: >-
   real-image construction unit, plus CPU-runnable checks for composite-locality (footprint)
   and for a bounded exterior-input to interior-output sensitivity certificate. The associated
   manuscript is included as paper.pdf in this repository.
+references:
+  - type: article
+    title: "Only Means Only: what a harmonization benchmark score averages over"
+    authors:
+      - family-names: "Bulji\u0107"
+        given-names: "Imad"
+        orcid: "https://orcid.org/0009-0009-2723-2315"
+      - family-names: "Muminovi\u0107"
+        given-names: "Delaida"
+        orcid: "https://orcid.org/0009-0002-6388-650X"
+    doi: "10.5281/zenodo.23404530"
+    url: "https://zenodo.org/records/23404530"
+    year: 2026
+    publisher:
+      name: "Zenodo"

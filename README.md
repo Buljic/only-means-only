@@ -123,9 +123,9 @@ calibration gap live in the manuscript and are not reproduced here.
 | Imad Buljić | Polytechnic Faculty, University of Zenica | 0009-0009-2723-2315 |
 | Delaida Muminović | Polytechnic Faculty, University of Zenica | 0009-0002-6388-650X |
 
-Cite this repository for the code and the lists, and the preprint `paper.pdf` in this
-repository for the scientific claims. A public preprint identifier will be added to
-`CITATION.cff` when the record exists.
+Cite this repository for the code and the lists. Cite the preprint record for the scientific
+claims: [10.5281/zenodo.23404530](https://doi.org/10.5281/zenodo.23404530) (v1, Zenodo, CC BY 4.0). The manuscript is also
+included here as `paper.pdf` and `supplement.pdf`.
 
 ## Layout
 
