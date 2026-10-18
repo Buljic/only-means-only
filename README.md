@@ -124,8 +124,7 @@ calibration gap live in the manuscript and are not reproduced here.
 | Delaida Muminović | Polytechnic Faculty, University of Zenica | 0009-0002-6388-650X |
 
 Cite this repository for the code and the lists. Cite the preprint record for the scientific
-claims: [10.5281/zenodo.23404529](https://doi.org/10.5281/zenodo.23404529) (concept DOI, always the latest version; v2, Zenodo,
-CC BY 4.0). The manuscript is also
+claims: [10.5281/zenodo.23404529](https://doi.org/10.5281/zenodo.23404529) (concept DOI, always the latest version; Zenodo, CC BY 4.0). The manuscript is also
 included here as `paper.pdf` and `supplement.pdf`.
 
 ## Layout
